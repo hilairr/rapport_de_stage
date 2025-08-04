@@ -9,9 +9,61 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome pour les icônes -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    
+ 
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
 
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+        }
+
+        .nav-link:hover {
+            color: #f8f9fa !important;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #007bff, #00d4ff);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+    
+</style>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -37,10 +89,10 @@
     <div class="hero mt-5">
         <div class="container">
             <h1>Rapport de Stage</h1>
-            <h3>Intitulé du Stage :Stage de perfectionnement</h3>
+            <h3>Intitulé du Stage : Stage de perfectionnement</h3>
             <p>Effectué à : UWAZY</p>
             <p>Période : Du 11/03/2025 au 11/08/2026</p>
-            <p>Par :Hilaire BONKOUNGOU</p>
+            <p>Par : Hilaire BONKOUNGOU</p>
         </div>
     </div>
 
@@ -50,47 +102,43 @@
         <div class="section" id="remerciements">
             <h2><i class="fas fa-handshake me-2"></i> Remerciements</h2>
             <p>Je remercie le DG de l'entreprise UWAZY Monsieurs Moctar COMPAORE pour son encadrement, l'équipe de UWAZY
-                notamment Abner PARE et Gael TENDANO pour leur accueil ,collaboration et l'apport consequent durant mon
-                stage ,<br>LE DG de la MUPOL, Dr OUALI Medecin Commissaire Principal de Police et l'Ingenière YIRGA qui
-                ont permis que cela soit possible </p>
+                notamment Abner PARE et Gael TENDANO pour leur accueil, collaboration et l'apport conséquent durant mon
+                stage, <br>LE DG de la MUPOL, Dr OUALI Médecin Commissaire Principal de Police et l'Ingénieur YIRGA qui
+                ont permis que cela soit possible.</p>
         </div>
 
         <!-- Introduction -->
         <div class="section" id="introduction">
             <h2><i class="fas fa-book-open me-2"></i> Introduction</h2>
-            <p>Ce rapport décrit mon stage au sein de UWAZY du 11/03/2025 au  11/08/2026, dans le cadre de ma
-                formation en developpement web et mobile. Ce stage visant à renforcer mes capacités et compétences en plusieurs
-                languages de programmations.</p>
+            <p>Ce rapport décrit mon stage au sein de UWAZY du 11/03/2025 au 11/08/2026, dans le cadre de ma
+                formation en développement web et mobile. Ce stage visait à renforcer mes capacités et compétences en plusieurs
+                langages de programmation.</p>
         </div>
 
         <!-- Présentation de l’Entreprise -->
         <div class="section" id="entreprise">
             <h2><i class="fas fa-building me-2"></i> Présentation de l'Entreprise</h2>
             <h4>Contexte et Activités</h4>
-            <p>UWAZY est spécialisée dans le metiers de l'informatiques avancée.  Elle compte plusieurs
-                employés directes et inderectes ainsi que des satgiaires et opère dans dans la conception des
+            <p>UWAZY est spécialisée dans les métiers de l'informatique avancée. Elle compte plusieurs
+                employés directs et indirects ainsi que des stagiaires et opère dans la conception de
                 logiciels et des formations.</p>
             <h4>Organisation</h4>
-            <p>L'entreprise est organisée en en plusieurs departement tels que le departement de la formation et le
-                departement de la conception. <br> J'étais intégré au département  de la conception qui etait en parfaite symbiose avec ma formation.
-            </p>
+            <p>L'entreprise est organisée en plusieurs départements tels que le département de la formation et le
+                département de la conception. <br> J'étais intégré au département de la conception qui était en parfaite symbiose avec ma formation.</p>
         </div>
 
         <!-- Missions -->
         <div class="section" id="missions">
             <h2><i class="fas fa-tasks me-2"></i> Missions Réalisées</h2>
             <ul>
-                <li><strong>la réalisation du site web de Capmining</strong> : une entreprise de Gestion de resources
-                    Humaines,ce site permettra de recevoir les dossiers des personnes enquettes d'emploi <br>ainsi que
+                <li><strong>La réalisation du site web de Capmining</strong> : une entreprise de gestion de ressources
+                    humaines, ce site permettra de recevoir les dossiers des personnes en quête d'emploi <br>ainsi que
                     la facilitation de la mise en relation entre l'employeur et l'employé.</li>
-                <li><strong>la mise en place du site web Silures</strong> :Silures est une entreprise culturelle et
-                    evenementielle ,ce site revient a renforcer la solidicité et son efficacité dans le travail. <br>Il
-                    permettra de mettre  au parfum  ses utilisateurs des evements en cours ,de reserver leurs places tout en étant chez eux.
-                </li>
-                <li><strong>formation en bureautique</strong> :L'entreprise UWAZY organise des sections de plusieurs formations dans plusieurs domaines d'activités,<br>
-                    dont j'ai eu la chance de donner une formtion en bureatique aux participants .
-                </li>
-
+                <li><strong>La mise en place du site web Silures</strong> : Silures est une entreprise culturelle et
+                    événementielle, ce site vise à renforcer sa solidité et son efficacité dans le travail. <br>Il
+                    permettra de mettre au courant ses utilisateurs des événements en cours, de réserver leurs places tout en étant chez eux.</li>
+                <li><strong>Formation en bureautique</strong> : L'entreprise UWAZY organise des sessions de plusieurs formations dans plusieurs domaines d'activités, <br>
+                    dont j'ai eu la chance de donner une formation en bureautique aux participants.</li>
             </ul>
         </div>
 
@@ -98,17 +146,17 @@
         <div class="section" id="resultats">
             <h2><i class="fas fa-chart-line me-2"></i> Résultats et Compétences</h2>
             <h4>Résultats</h4>
-            <p>Les missions ont été d'un grand apport dans l'amelioration pratiques de mes competences ,de mettre en
-                oeuvre ce que j'ai appris , d'apprendre de mes erreurs lors des conceptions et de travailler en équipe avec mes collaborateurs.</p>
+            <p>Les missions ont été d'un grand apport dans l'amélioration pratique de mes compétences, de mettre en
+                œuvre ce que j'ai appris, d'apprendre de mes erreurs lors des conceptions et de travailler en équipe avec mes collaborateurs.</p>
             <h4>Compétences Acquises</h4>
-            <p>Compétences techniques : html, css, php, java script, bootstrap, laraval, github et mysql. <br>
+            <p>Compétences techniques : HTML, CSS, PHP, JavaScript, Bootstrap, Laravel, GitHub et MySQL. <br>
                 Compétences transversales : travail en équipe.</p>
         </div>
 
         <!-- Conclusion -->
         <div class="section" id="conclusion">
             <h2><i class="fas fa-flag-checkered me-2"></i> Conclusion</h2>
-            <p>Ce stage a été une expérience enrichissante, confirmant mon intérêt pour le developpement web et mobile et renforcant mes capacités dans ce domaine qui me passionne.
+            <p>Ce stage a été une expérience enrichissante, confirmant mon intérêt pour le développement web et mobile et renforçant mes capacités dans ce domaine qui me passionne.
                 Je recommande UWAZY pour son environnement formateur et sa qualité de travail bien fait.</p>
         </div>
     </div>
@@ -127,6 +175,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- jsPDF pour générer le PDF -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- html2canvas pour capturer le contenu HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script>
         // Navigation fluide
         document.querySelectorAll('.nav-link').forEach(anchor => {
@@ -142,19 +192,43 @@
         });
 
         // Téléchargement PDF
-        function downloadPDF() {
+        async function downloadPDF() {
             const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-            doc.setFont("helvetica");
-            doc.setFontSize(12);
-            doc.text("Rapport de Stage", 20, 20);
-            doc.text("Intitulé : stage de perfectionnement", 20, 30);
-            doc.text("Entreprise : UWAZY", 20, 40);
-            doc.text("Période : 11/03/2025 au 11/08/2025", 20, 50);
-            doc.text("Par : Hilaire BONKOUNGOU", 20, 60);
-            doc.text("Introduction", 20, 80);
-            doc.text("Ce rapport décrit mon stage au sein de UWAZY.", 20, 90);
-            doc.save("rapport_de_stage.pdf");
+            const doc = new jsPDF({
+                orientation: 'portrait',
+                unit: 'px',
+                format: 'a4'
+            });
+
+            // Sélectionner le contenu principal (exclure la navbar et le footer si souhaité)
+            const content = document.querySelector('body');
+            const canvas = await html2canvas(content, {
+                scale: 2, // Augmenter la résolution
+                useCORS: true, // Pour charger les ressources externes
+                windowWidth: document.documentElement.offsetWidth,
+                windowHeight: document.documentElement.scrollHeight
+            });
+
+            const imgData = canvas.toDataURL('image/png');
+            const imgProps = doc.getImageProperties(imgData);
+            const pdfWidth = doc.internal.pageSize.getWidth();
+            const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+
+            // Ajuster pour plusieurs pages si nécessaire
+            let heightLeft = pdfHeight;
+            let position = 0;
+
+            doc.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
+            heightLeft -= doc.internal.pageSize.getHeight();
+
+            while (heightLeft > 0) {
+                position = heightLeft - pdfHeight;
+                doc.addPage();
+                doc.addImage(imgData, 'PNG', 0, position, pdfWidth, pdfHeight);
+                heightLeft -= doc.internal.pageSize.getHeight();
+            }
+
+            doc.save('rapport_de_stage.pdf');
         }
     </script>
 </body>
